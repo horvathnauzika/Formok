@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horváth Nauzika</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Mosómacik</legend>
+            <label for="nev">Név: </label>
+            <input type="text" id="nev" name="macinev" placeholder="Bearkenye"><br>
+            <label for="szin">Szín: </label>
+            <input type="color" id="szin" name="maciszin"><br>
+            <label for="tomeg">Tömeg (kg): </label>
+            <input type="range" id="tomeg" name="tomeg" min="6" max="10" oninput="this.form.tomeg_szam.value=this.value">
+            <input type="number" name="tomeg_szam" size="3" oninput="this.form.tomeg.value=this.value"><br>
+            <input type="submit" value="Küldés">
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,11 @@
+input[type=text]{
+    color: #E67BB1;
+}
+
+input{
+    margin: 5px
+}
+
+input[type=submit]{
+    text-align: center;
+}
